@@ -13,6 +13,8 @@
     </head>
     <body>
         <div class="container">
+
+            <!-- Top bar -->
             <header class="header">
 
                 <!-- Logo -->
@@ -65,11 +67,63 @@
                 </nav>
 
             </header>
+
+            <!-- Main content: sidebar and hotel view -->
             <div class="content">
 
                 <!-- Sidebar -->
                 <nav class="sidebar">
-                    Navigation
+
+                    <!-- List of nav items -->
+                    <ul class="side-nav">
+
+                        <!-- Individual nav item: hotel -->
+                        <li class="side-nav__item side-nav__item--active"> <!-- Artificially keep this one active -->
+                            <a href="javascript:;" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+
+                        <!-- Individual nav item: flight -->
+                        <li class="side-nav__item">
+                            <a href="javascript:;" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+
+                        <!-- Individual nav item: car rental -->
+                        <li class="side-nav__item">
+                            <a href="javascript:;" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+
+                        <!-- Individual nav item: Tours -->
+                        <li class="side-nav__item">
+                            <a href="javascript:;" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Legal text -->
+                    <div class="legal">
+                        &copy; 2017 by trillo. All rights reserved.
+                    </div>
+
                 </nav>
 
                 <!-- Hotel view -->
